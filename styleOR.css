@@ -24,6 +24,60 @@ header{
         border-color: black ;
     
 }
+.section1{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.textlogo{
+    display: flex;
+    flex-direction: column;
+align-items: end;
+}
+.EVERYTHING {
+    background-color: antiquewhite;
+width: 973px;
+height: 120px;
+display: flex;
+align-items: center;
+font-family: 'Rammetto One';
+font-style: normal;
+font-weight: 400;
+font-size: 120px;
+line-height: 203px;
+background: radial-gradient(50% 50% at 50% 50%, #9A635A 0%, #88554A 0.01%, #865348 58.85%, #3E1809 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+-webkit-text-stroke: 3px white;
+}
+.STARTS{
+    letter-spacing: 20px;
+width: px;
+height: 119px;
+font-family: 'Faster One';
+font-style: normal;
+font-weight: 400;
+font-size: 120px;
+line-height: 128px;
+text-align: center;
+color: #371406;
+-webkit-text-stroke: 3px white;
+}
+.Ioan{
+width: 420px;
+height: 200px;
+font-family: 'Pacifico';
+font-style: normal;
+font-weight: 400;
+font-size: 250px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: transparent;
+-webkit-text-stroke: 10px white;
+
+}
 .btn{
     display: flex;
     height: 100%;
@@ -47,31 +101,43 @@ text-decoration: none;
     border-radius: 10px;
 }
 .time{
+    background-color: RGB(242, 199, 183,0.3);
+    font-family: 'Roboto Mono';
     padding-top: 30px;
     padding-bottom: 30px;
     -webkit-text-stroke: 1px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
     strong{
-        font-size: 30px;
+        font-size: 35px;
+        display: flex;
+        justify-content: center;
     }
-    width: 250px;
-    border-top: 3px solid;
-    border-bottom: 3px solid;
+    width: 300px;
+    border-top: 10px solid;
+    border-bottom: 10px solid;
     color: white;
 .zi{
-
+padding-left: 10px;
     list-style-type: none;
+    font-size: 30px;
+    font-weight: bolder;
+    
 
 }
 .orar{
-    padding-inline: 20px;
-    font-size: 20px;
+    padding-right: 10px;
+    font-size: 25px;
 display: flex;
 align-items: center;
 justify-content: space-between;
 }
 .dum{
     padding-inline: 20px;
-    font-size: 20px;
+    font-size: 30px;
+    font-style: italic;
     display: flex;
     justify-content: space-between;
 }
