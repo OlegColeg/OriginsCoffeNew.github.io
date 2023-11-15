@@ -13,7 +13,16 @@ header{
 }
 .container{
         width: 1300px;
+        display: flex;
+        flex-direction: column;
+       
     
+}
+.box1{
+    width: 1300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .navbartop{
     display: flex;
@@ -96,8 +105,11 @@ text-decoration: none;
     height: 100%;
     padding-inline: 15px;
     background-color: #F2C7B7;
-    color: RGB(242, 199, 183);
-    border: 1px solid;
+a{
+    
+    color:black;
+    font-weight: 700;
+}
     border-radius: 10px;
 }
 .time{
@@ -157,5 +169,34 @@ justify-content: space-between;
     height: 100vh;
     background-image: url(image/back2coffee1.png);
     background-size: contain;
+}
+.contact:active{
+ background-color: #371406;
+.section1{
+    display: none;
+}
+}
+.navbarbottom{
+    margin-top: 150px;
+    display: flex;
+    list-style: none;
+width: 800px;
+height: 50px;
+justify-content: space-between;
+    a{
+    text-decoration: none;
+    color: black;
+
+    }
+}
+.btnb{
+    border-radius: 10px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 10px;
+    height: 100%;
+    background-color: #F2C7B7;
 }
 
