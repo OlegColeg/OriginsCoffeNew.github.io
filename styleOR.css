@@ -272,6 +272,7 @@ header {
     justify-content: space-between;
     display: flex;
     .box2__coffee{
+        padding: 10px;
         background-color:antiquewhite;
         border-top-left-radius: 50px;
         border-bottom-right-radius: 50px;
