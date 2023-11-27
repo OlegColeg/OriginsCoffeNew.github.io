@@ -28,8 +28,34 @@
 
     <header>
         <div class="container">
+            <div style="display: none;" id="hamblist" class=" hamblist">
+                <li>
+                    <p>Coffee</p>
+                    <p>></p>
+                </li>
+                <li>
+                    <p>Tea</p>
+                    <p>></p>
+                </li>
+                <li>
+                    <p>Accesorii</p>
+                    <p>></p>
+                </li>
+                <li>
+                    <p>Galeria</p>
+                    <p>></p>
+                </li>
+                <li>
+                    <p>Contact</p>
+                    <p>></p>
+                </li>
+            </div>
             <div class="navbartop">
-                <div class="hamb"><a href=""><img src="image/burg.png" alt="" height="100%"></a></div>
+                <div id="hamb" class="hamb">
+                    <img src="image/burg.png" alt="" height="100%">
+
+                </div>
+
                 <div class="btn">
                     <div class="contact"><a href="">CONTACT</a></div>
                     <div class="alte" id="cofe"><a href="">COFFEE</a><a href="">DESPRE</a></div>
@@ -49,7 +75,7 @@
                     </div>
                 </div>
                 <div class="navbarbottom">
-                    <button id="btnb" class="btnb">COFFEE TIME</button> 
+                    <div class="btnb"><a href="">COFFEE TIME</a></div>
                     <div class="btnb"><a href="">TEA TIME</a></div>
                     <div class="btnb"><a href="">ACCESORII</a></div>
                     <div class="btnb"><a href="">GALERIA</a></div>
@@ -57,7 +83,7 @@
             </div>
         </div>
     </header>
-    <section id="orar" class="orar__lucru orar-hidden"  >
+    <section id="orar" class="orar__lucru">
         <div class="container__2">
             <div class="box1__2">
                 <div class="section1__2">
