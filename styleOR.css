@@ -109,16 +109,6 @@
     justify-content: space-between;
 }
 
-.alte {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    border: 1px solid white;
-    border-radius: 10px;
-    gap: 40px;
-    padding-inline: 15px;
-}
 
 .coffee1 {
     padding-top: 50px;
@@ -154,6 +144,17 @@
     flex-direction: column;
     justify-content: space-evenly;
     padding-inline: 15px;
+    margin-inline-start: 0px;
+    transition: 0.5s;
+
+}
+.descriere:hover{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-inline-start: 5px;
+    margin-inline-end: -5px;
+    transition: 0.5s;
 
 }
 
@@ -199,6 +200,11 @@
     gap: 30px;
     justify-content: right;
     border-bottom: 3px solid #3E1809;
+    transition: 0.5s;
+}
+.box2__all .round:hover {
+padding-right: 10px;
+    transition: 0.5s;
 }
 
 .ceai__verde {

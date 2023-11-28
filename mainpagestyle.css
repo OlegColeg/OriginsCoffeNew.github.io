@@ -64,6 +64,7 @@ header {
 
 }
 .origins {
+    user-select: none;
     height: 230px;
     display: flex;
     align-items: center;
@@ -77,6 +78,7 @@ header {
 }
 
 .EVERYTHING {
+    user-select: none;
     background-color: antiquewhite;
     width: 100%;
     height: 60px;
@@ -95,6 +97,7 @@ header {
 }
 
 .STARTS {
+    user-select: none;
     display: flex;
     justify-content: end;
     letter-spacing: 20px;
@@ -111,6 +114,7 @@ header {
 }
 
 .Ioan {
+    user-select: none;
     width: 100%;
     font-family: 'Pacifico';
     font-style: normal;
@@ -139,6 +143,7 @@ header {
     color: white;
 }
 
+
 .contact {
     display: flex;
     align-items: center;
@@ -150,10 +155,45 @@ header {
 }
 
 .contact a {
-
-    color: black;
+ color: black;
     font-weight: 700;
+    transition: 0.5s;
 }
+.contact a:hover {
+
+    color: #F2C7B7;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+
+.alte {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border: 1px solid white;
+    border-radius: 10px;
+    gap: 40px;
+    padding-inline: 15px;
+    
+}
+.alte a:hover {
+    color: #F2C7B7;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 10px;
+    transition: 0.5s;
+}
+.alte a{
+    transition: 0.5s;
+}
+
+
 .navbarbottom {
     margin-top: 0;
     display: flex;
