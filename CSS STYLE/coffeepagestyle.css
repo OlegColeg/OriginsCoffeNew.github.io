@@ -1,0 +1,96 @@
+
+.coffee1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url(image/2BACKCOFFE1.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.cof {
+    width: 500px;
+    height: 150px;
+    display: flex;
+}
+
+.cof img {
+    border-radius: 30%;
+}
+
+.cappuccino,
+.americano {
+    flex-direction: row-reverse;
+    justify-content: right;
+}
+
+.descriere {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-inline: 15px;
+    margin-inline-start: 0px;
+    transition: 0.5s;
+
+}
+.descriere:hover{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-inline-start: 5px;
+    margin-inline-end: -5px;
+    transition: 0.5s;
+
+}
+
+.descriere .name {
+    font-family: 'Rammetto One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    background: radial-gradient(50% 50%, #865348 58.85%, #3E1809 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container2 {
+    width: 1300px;
+    justify-content: space-between;
+    display: flex;
+
+
+}
+.container2 .box2__coffee {
+    padding: 10px;
+    background-color: antiquewhite;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    height: auto;
+
+}
+
+.container2 .box2__pret {
+    font-family: 'Iceland';
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container2 .round {
+    font-size: 60px;
+    width: auto;
+    display: flex;
+    align-items: end;
+    gap: 30px;
+    justify-content: right;
+    border-bottom: 3px solid #3E1809;
+    transition: 0.5s;
+}
+.container2 .round:hover {
+padding-right: 10px;
+    transition: 0.5s;
+}

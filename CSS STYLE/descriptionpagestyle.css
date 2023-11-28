@@ -1,0 +1,96 @@
+.orar__lucru {
+    padding-block: 50px;
+    background-image: url(/image/yammy.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.orar-hidden {
+    display: none;
+}
+
+
+
+.container1 {
+    padding-block: 50px;
+    padding-inline: 10px;
+    width: 1300px;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid;
+    background-color: rgb(255, 255, 255, 0.3);
+}
+
+.container1 .textwho {
+    border-radius: 5px;
+    background: linear-gradient(90deg, rgb(255, 255, 255) 35%, rgba(151, 147, 142, 0.628) 100%);
+    padding: 20px;
+    width: 700px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+
+.section1 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.section1__2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.time {
+    width: 400px;
+    background-color: RGB(237, 229, 217, 0.3);
+    font-family: 'Roboto Mono';
+    -webkit-text-stroke: 1px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 10px solid;
+    border-bottom: 10px solid;
+    color: white;
+
+}
+
+.time strong {
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.time .zi {
+    padding-left: 10px;
+    list-style-type: none;
+    font-size: 30px;
+    font-weight: bolder;
+
+
+}
+
+.time .orar {
+    padding-right: 10px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.time .dum {
+    padding-inline: 20px;
+    font-size: 30px;
+    font-style: italic;
+    display: flex;
+    justify-content: space-between;
+}
+
