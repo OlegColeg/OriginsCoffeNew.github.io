@@ -2,7 +2,7 @@
 .coffee1 {
     padding-top: 50px;
     padding-bottom: 50px;
-    background-image: url(image/2BACKCOFFE1.png);
+    background-image: url(../image/2BACKCOFFE1.png);
     background-size: cover;
     display: flex;
     flex-direction: column;

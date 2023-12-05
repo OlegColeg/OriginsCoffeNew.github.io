@@ -1,6 +1,6 @@
 .orar__lucru {
     padding-block: 50px;
-    background-image: url(/image/yammy.jpg);
+    background-image: url(../image/yammy.jpg);
     background-size: cover;
     display: flex;
     flex-direction: column;

@@ -8,7 +8,7 @@
 
 .imgceai {
     height: 500px;
-    background-image: url(/image/backtea2.jpg);
+    background-image: url(../image/backtea2.jpg);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -23,7 +23,7 @@
 
 .tea__description{
 height: 400px;
-   background-image: url(/image/tea1\ \(6\).jpg);
+   background-image: url(../image/tea1\ \(6\).jpg);
     background-size: cover;
     background-position-y: -270px;
     
