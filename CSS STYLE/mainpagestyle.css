@@ -6,7 +6,7 @@
 header {
 
     padding-bottom: 100px;
-    background-image: url(/image/BUYPNG.png);
+    background-image: url(../image/BUYPNG.png);
     background-size: cover;
     display: flex;
     justify-content: center;
