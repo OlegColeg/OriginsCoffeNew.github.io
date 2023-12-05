@@ -1,12 +1,96 @@
-
 .ceai__verde {
 
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.imgceai {
+    height: 500px;
+    background-image: url(/image/backtea2.jpg);
     background-size: cover;
     display: flex;
     justify-content: center;
+
+}
+.container3_1 {
+    width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.box3__ceaiverde {
+.tea__description{
+height: 400px;
+   background-image: url(/image/tea1\ \(6\).jpg);
+    background-size: cover;
+    background-position-y: -270px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
+}
+.text_for_tea{
+    
+    color: white;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+
+}
+.text_for_tea h1{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 60px;
+    transition: 0.5s;
+}
+.text_for_tea h1:hover{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 65px;
+    transition: 0.5s;
+    text-shadow: 0px 0px 10px white;    
+}
+.text_for_tea p{
+    display: flex;
+    align-items: center;
+text-align: center;
+background-color: rgb(39, 39, 39,0.5);
+padding: 5px;
+border-radius: 10px;
+
+}
+.text_for_tea .btntea{
+width: 100px;
+height: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: bisque;
+border-radius: 20px;
+}
+.text_for_tea .btntea a{
+    text-decoration: none;
+    color: white;
+
+    }
+.container3_2 {
     width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.text_for_tea_bottom{
+    padding: 10px;
+text-align: justify;
+    width: 20%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
 }

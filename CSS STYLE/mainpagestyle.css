@@ -4,6 +4,7 @@
 }
 
 header {
+
     padding-bottom: 100px;
     background-image: url(/image/BUYPNG.png);
     background-size: cover;
@@ -22,11 +23,16 @@ header {
     align-items: center;
 }
 .navbartop {
+    z-index: 99;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    position: fixed;
     user-select: none;
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
-    width: auto;
+    width: 1300px;
     height: 50px;
 
 }
@@ -34,8 +40,9 @@ header {
 
 
 .hamblist {
+    z-index: 100;
+    position: fixed;
     user-select: none;
-    position: absolute;
     top: 70px;
 
     display: flex;
@@ -64,6 +71,7 @@ header {
 
 }
 .origins {
+    margin-top: 70px;
     user-select: none;
     height: 230px;
     display: flex;
@@ -171,14 +179,15 @@ header {
 
 
 .alte {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 200px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around ;
     height: 100%;
     border: 1px solid white;
     border-radius: 10px;
-    gap: 40px;
-    padding-inline: 15px;
+
     
 }
 .alte a:hover {
