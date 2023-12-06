@@ -44,7 +44,6 @@ header {
     position: fixed;
     user-select: none;
     top: 70px;
-
     display: flex;
     flex-direction: column;
     background-color: #EDE5D9;
