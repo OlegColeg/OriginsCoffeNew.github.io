@@ -80,16 +80,20 @@ width: 100%;
     user-select: none;
     color: white;
     -webkit-text-stroke-width: 0.5px;
-
+}
+.textlogo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
 }
 .origins {
-    margin-top: 70px;
+  max-height: 200px;
     user-select: none;
-    max-height: 230px;
-    height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
     width: 100%;
     font-family: 'Rammetto One';
     font-style: normal;
@@ -97,21 +101,7 @@ width: 100%;
     font-size: 180px;
     color: white;
 }
-@media only screen and (max-width: 1300px) {
-    /* Aici adaugi stilurile pentru ecrane cu lățimi de minimum 768px */
-    .origins {
-        font-size: 100px;
-    }
-    .EVERYTHING {
-        font-size: 40px;
-        line-height: 150px;
-       
-    }
-    .STARTS{
-        font-size: 40px;
-        line-height:40px;
-    }
-  }
+
 
 .EVERYTHING {
     user-select: none;
@@ -134,17 +124,14 @@ width: 100%;
 
 .STARTS {
     user-select: none;
-    display: flex;
-    justify-content: end;
-    letter-spacing: 20px;
+text-align: end;
+    letter-spacing: 15px;
     width: 100%;
-    height: 60px;
     font-family: 'Faster One';
     font-style: normal;
     font-weight: 400;
     font-size: 60px;
-    line-height: 60px;
-    text-align: center;
+    margin-left: 20px;
     color: #371406;
     -webkit-text-stroke: 3px white;
 }
@@ -156,9 +143,7 @@ width: 100%;
     font-style: normal;
     font-weight: 400;
     font-size: 125px;
-    display: flex;
-    align-items: center;
-    justify-content: end;
+text-align: end;
     color: transparent;
     -webkit-text-stroke: 5px white;
 
@@ -295,3 +280,75 @@ width: 100%;
 .btnb a:hover {
     color: #e9aaaa;
 }
+
+@media only screen and (max-width: 1300px) {
+    /* Aici adaugi stilurile pentru ecrane cu lățimi de minimum 768px */
+    .origins {
+        font-size: 150px;
+    }
+    .EVERYTHING {
+        font-size: 40px;
+        line-height: 150px;
+       
+    }
+    .STARTS{
+        font-size: 40px;
+        line-height:40px;
+    }
+  }
+  @media only screen and (max-width: 1000px) {
+    /* Aici adaugi stilurile pentru ecrane cu lățimi de minimum 768px */
+    .origins {
+        font-size: 100px;
+    }
+    .EVERYTHING {
+        font-size: 40px;
+        line-height: 150px;
+       
+    }
+    .STARTS{
+        font-size: 40px;
+        line-height:40px;
+    }
+    .navbarbottom {
+        padding-inline: 100px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust the 200px as needed */
+        column-gap: 100px;
+        row-gap: 10px; /* Adjust the gap as needed */
+        list-style: none;
+    width: 100%;
+        padding-block: 10px;
+        padding-inline: 10px;
+    
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    /* Aici adaugi stilurile pentru ecrane cu lățimi de minimum 768px */
+    .origins {margin-top: 100px;
+        font-size: 80px;
+    }
+    .EVERYTHING {
+        margin-top: 100px;
+        font-size: 50px;
+        line-height: 20px;
+       
+    }
+    .STARTS{
+        margin-top: ;
+        font-size: 40px;
+        line-height:20px;
+    }
+    .navbarbottom {
+        padding-inline: 100px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust the 200px as needed */
+        column-gap: 100px;
+        row-gap: 10px; /* Adjust the gap as needed */
+        list-style: none;
+    width: 100%;
+        padding-block: 10px;
+        padding-inline: 10px;
+    
+    }
+  }
