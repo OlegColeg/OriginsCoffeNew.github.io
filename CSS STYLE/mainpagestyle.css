@@ -30,7 +30,7 @@ width: 100%;
 }
 .container .navbartop {    
     max-width: 1100px;
-    width: 100%;
+    width: calc(100% - 200px); /* Subtract 200px (100px for each side) from the width */
     height: 50px;
     z-index: 99;
     padding: 5px;
@@ -42,17 +42,21 @@ width: 100%;
     justify-content: space-between;
     margin-top: 20px;
     margin-inline: 100px;
-
-
 }
 
+.hamblist_box {
+    max-width: 1100px;
+    width:100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.container .hamblist {
 
 
-.hamblist {
     z-index: 100;
     position: fixed;
     user-select: none;
-    top: 70px;
+    top: 75px;
     display: flex;
     flex-direction: column;
     background-color: #EDE5D9;
@@ -90,9 +94,24 @@ width: 100%;
     font-family: 'Rammetto One';
     font-style: normal;
     font-weight: 400;
-    font-size: 12vw;
+    font-size: 180px;
     color: white;
 }
+@media only screen and (max-width: 1300px) {
+    /* Aici adaugi stilurile pentru ecrane cu lățimi de minimum 768px */
+    .origins {
+        font-size: 100px;
+    }
+    .EVERYTHING {
+        font-size: 40px;
+        line-height: 150px;
+       
+    }
+    .STARTS{
+        font-size: 40px;
+        line-height:40px;
+    }
+  }
 
 .EVERYTHING {
     user-select: none;
@@ -276,11 +295,3 @@ width: 100%;
 .btnb a:hover {
     color: #e9aaaa;
 }
-/* @media only screen and (min-width: 768px) {
-  container: {
-    width: 1300px;}  
-}
-@media only screen and (max-width: 1300px) {
-    /* Aici adaugi stilurile pentru ecrane cu lățimi de minimum 768px */
-
-  } */
