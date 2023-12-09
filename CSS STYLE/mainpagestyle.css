@@ -311,7 +311,6 @@ justify-content: center;
         line-height:40px;
     }
     .navbarbottom {
-        padding-inline: 100px;
         display: grid;
         grid-template-columns: 300px; 
         row-gap: 10px; /* Adjust the gap as needed */
@@ -337,7 +336,6 @@ justify-content: center;
         line-height:20px;
     }
     .navbarbottom {
-        padding-inline: 100px;
         display: grid;
         grid-template-columns: 300px; 
         column-gap: 5%;
