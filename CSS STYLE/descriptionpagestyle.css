@@ -1,3 +1,7 @@
+* {
+    padding: 0;
+    margin: 0;
+}
 .orar__lucru {
     padding-block: 50px;
     background-image: url(../image/yammy.jpg);
@@ -15,42 +19,23 @@
 
 
 .container1 {
-    padding-block: 50px;
-    padding-inline: 10px;
-    width: 1300px;
-    display: flex;
-    flex-direction: column;
-    border: 5px solid;
-    background-color: rgb(255, 255, 255, 0.3);
+    max-width: 1100px;
+    margin-inline: 100px;
 }
 
 .container1 .textwho {
     border-radius: 5px;
     background: linear-gradient(90deg, rgb(255, 255, 255) 35%, rgba(151, 147, 142, 0.628) 100%);
     padding: 20px;
-    width: 700px;
-    font-size: 30px;
+    max-width: 700px;
+    font-size: 15px;
     font-weight: 400;
+    font-family: 'Roboto Mono';
 }
-
-
-.section1 {
-    margin-top: 100px;
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.section1__2 {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
 
 .time {
-    width: 400px;
+    max-width: 400px;
+    min-width: 300px;
     background-color: RGB(237, 229, 217, 0.3);
     font-family: 'Roboto Mono';
     -webkit-text-stroke: 1px black;
@@ -94,3 +79,44 @@
     justify-content: space-between;
 }
 
+.box_orar{
+  
+ display: flex;
+
+    border: 5px solid;
+background-color: rgb(255, 255, 255, 0.3);
+    padding-block: 50px;
+    padding-inline: 50px;
+    gap: 50px  ;
+
+ 
+}
+@media screen and (max-width: 1100px) {
+    .box_orar{
+        flex-direction: column;
+align-items: center;
+    
+    }
+}
+@media screen and (max-width: 630px) {
+    .box_orar{
+        padding-inline: 10px;
+    }
+.time{
+    min-width: 200px;
+}
+
+
+.container1 .textwho{
+font-size: 12px;
+}
+
+.time .dum{
+    font-size: 20px;
+    color: red;
+    -webkit-text-stroke: 0;
+}
+.container1{
+    margin-inline: 10px;
+}
+}
