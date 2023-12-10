@@ -44,9 +44,7 @@ width: 100%;
 
 .hamblist_box {
     max-width: 1100px;
-    width:100%;
-    display: flex;
-    justify-content: flex-start;
+    min-width: 220px; /* Subtract 200px (100px for each side) from the width */
 }
 .container .hamblist {
 
