@@ -10,22 +10,26 @@ document.getElementById('hamb').addEventListener('click', function() {
   }
   console.log(i);
 });
-let ii= 0;
-document.getElementById('btntea').addEventListener('click', function() {
-  if (ii == 0) {
-    document.getElementById('over_tea').style.display = 'flex';
-    ii++;
+let a= 0;
+document.getElementById('btnb_coffee1').addEventListener('click', function() {
+  if (a == 0) {
+
+    a++;
   }
   else {
-    document.getElementById('over_tea').style.display = 'none';
-    ii--;
+  
+    a--;
   }
-  console.log(ii);
+  console.log(a);
 });
 
 document.getElementById('btnb_coffee').addEventListener('click', function() {
 
     const coffeepage = document.getElementById('coffee1');
     coffeepage.scrollIntoView({behavior: "smooth"});
-    ii++;
+});
+document.getElementById('btnb_coffee1').addEventListener('click', function() {
+
+  const coffeepage = document.getElementById('coffee1');
+  coffeepage.scrollIntoView({behavior: "smooth"});
 });
