@@ -337,6 +337,9 @@ justify-content: center;
     width: 100%;
     
     }
+    .btn{
+        display: none;
+    }
   }
   @media only screen and (max-width: 450px) {
     /* Aici adaugi stilurile pentru ecrane cu lățimi de minimum 768px */
