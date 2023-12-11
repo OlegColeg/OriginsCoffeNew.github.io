@@ -109,6 +109,7 @@ align-items: center;
 
 .container1 .textwho{
 font-size: 12px;
+max-width: 300px;
 }
 
 .time .dum{

@@ -1,19 +1,23 @@
-
 .coffee1 {
-    padding-top: 50px;
-    padding-bottom: 50px;
+padding-block: 50px;
     background-image: url(../image/2BACKCOFFE1.png);
     background-size: cover;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+
+}
+.container2 {
+    max-width: 1100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 100px;
 
 }
 
 
 .cof {
-    width: 500px;
     height: 150px;
     display: flex;
 }
@@ -29,15 +33,20 @@
 }
 
 .descriere {
+    max-width: 320px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     padding-inline: 15px;
-    margin-inline-start: 0px;
     transition: 0.5s;
 
 }
-.descriere:hover{
+.descriere .text {
+    font-size: 16px;
+}
+
+
+.descriere:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -57,13 +66,8 @@
     -webkit-text-fill-color: transparent;
 }
 
-.container2 {
-    width: 1300px;
-    justify-content: space-between;
-    display: flex;
 
 
-}
 .container2 .box2__coffee {
     padding: 10px;
     background-color: antiquewhite;
@@ -81,16 +85,45 @@
 }
 
 .container2 .round {
-    font-size: 60px;
+    font-size: 40px;
     width: auto;
     display: flex;
     align-items: end;
     gap: 30px;
     justify-content: right;
+    text-decoration: red;
+    text-underline-offset: 10px;
     border-bottom: 3px solid #3E1809;
     transition: 0.5s;
 }
+
 .container2 .round:hover {
-padding-right: 10px;
+    padding-right: 10px;
     transition: 0.5s;
+}
+@media screen and (max-width: 1100px){
+    .container2{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+@media screen and (max-width: 600px){
+    .container2{
+
+        padding-inline: 30px;
+    }
+    
+.container2 .round {
+    font-size: 20px;    
+    gap: 10px;
+
+}
+.descriere .text {
+    font-size: 15px;
+}
+.cof img{
+    height: 100px;
+    width: 100px;
+}
 }
