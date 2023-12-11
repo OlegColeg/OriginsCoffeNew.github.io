@@ -111,7 +111,8 @@ padding-block: 50px;
 @media screen and (max-width: 600px){
     .container2{
 
-        padding-inline: 30px;
+       margin-inline: 0px;
+       padding-inline: 20px;
     }
     
 .container2 .round {
