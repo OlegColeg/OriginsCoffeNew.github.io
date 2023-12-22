@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+    
+}
 .coffee1 {
 padding-block: 50px;
     background-image: url(../image/2BACKCOFFE1.png);

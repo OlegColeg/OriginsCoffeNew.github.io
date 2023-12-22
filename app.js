@@ -23,13 +23,13 @@ document.getElementById('btnb_coffee1').addEventListener('click', function() {
   console.log(a);
 });
 
-document.getElementById('btnb_coffee').addEventListener('click', function() {
+// document.getElementById('btnb_coffee').addEventListener('click', function() {
 
-    const coffeepage = document.getElementById('coffee1');
-    coffeepage.scrollIntoView({behavior: "smooth"});
-});
-document.getElementById('btnb_coffee1').addEventListener('click', function() {
+//     const coffeepage = document.getElementById('coffee1');
+//     coffeepage.scrollIntoView();
+// });
+// document.getElementById('btnb_coffee1').addEventListener('click', function() {
 
-  const coffeepage = document.getElementById('coffee1');
-  coffeepage.scrollIntoView({behavior: "smooth"});
-});
+//   const coffeepage = document.getElementById('coffee1');
+//   coffeepage.scrollIntoView();
+// });
