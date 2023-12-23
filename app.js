@@ -11,25 +11,33 @@ document.getElementById('hamb').addEventListener('click', function() {
   console.log(i);
 });
 let a= 0;
-document.getElementById('btnb_coffee1').addEventListener('click', function() {
+document.getElementById('btntea').addEventListener('click', function() {
   if (a == 0) {
-
+    document.getElementById('addteablock').style.display = 'flex';
+   document.getElementById('tea__description').scrollIntoView();
     a++;
   }
   else {
-  
+
+    document.getElementById('addteablock').style.display = 'none';
+    document.getElementById('tea_all').scrollIntoView();
     a--;
   }
   console.log(a);
 });
 
-// document.getElementById('btnb_coffee').addEventListener('click', function() {
+document.getElementById('btn_hamb_coffee').addEventListener('click', function() {
 
-//     const coffeepage = document.getElementById('coffee1');
-//     coffeepage.scrollIntoView();
-// });
-// document.getElementById('btnb_coffee1').addEventListener('click', function() {
+    const coffeepage = document.getElementById('coffee1');
+    coffeepage.scrollIntoView();
+});
+document.getElementById('btnb_coffee1').addEventListener('click', function() {
 
-//   const coffeepage = document.getElementById('coffee1');
-//   coffeepage.scrollIntoView();
-// });
+  const coffeepage = document.getElementById('coffee1');
+  coffeepage.scrollIntoView();
+});
+document.getElementById('btn_hamb_tea').addEventListener('click', function() {
+
+  const coffeepage = document.getElementById('tea_all');
+  coffeepage.scrollIntoView();
+});
