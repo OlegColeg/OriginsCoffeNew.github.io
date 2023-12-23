@@ -96,6 +96,11 @@ padding-block: 50px;
     text-underline-offset: 10px;
     border-bottom: 3px solid #3E1809;
     transition: 0.5s;
+
+}
+.box_round{
+    position: sticky;
+    top: 1px;
 }
 
 .container2 .round:hover {
