@@ -159,12 +159,10 @@ justify-content: right;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    height: 600px;
     padding-block: 40px;
     transition: 2s;
-
     align-items: center;
-
+gap: 20px;
 
 }
 
@@ -190,6 +188,9 @@ justify-content: right;
 
     .tea_over {
 flex-direction: column;
-    
+
+    }
+    .tea_over .tea{
+        position: relative;
     }
 }
