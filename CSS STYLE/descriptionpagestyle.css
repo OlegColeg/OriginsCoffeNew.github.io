@@ -3,7 +3,7 @@
     margin: 0;
 }
 .description {
-    padding-block: 50px;
+
     background: rgb(255,253,227);
     background: linear-gradient(344deg, rgba(255,253,227,0.5216211484593838) 0%, rgba(255,255,255,1) 82%);
     display: flex;
@@ -63,6 +63,7 @@ font-family: 'Inder', sans-serif;
 
 @media screen and (max-width:600px){
     .box_who{
+        padding-block: 20px;
         min-width: 350px;
     }
     .big_text{
