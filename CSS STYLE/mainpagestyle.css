@@ -31,7 +31,8 @@ max-width: 1100px;
 }
 .container .navbartop {    
     max-width: 1100px;
-    width: calc(100% - 200px); /* Subtract 200px (100px for each side) from the width */
+    width: calc(100% - 200px); 
+    min-width: 400px;/* Subtract 200px (100px for each side) from the width */
     height: 50px;
     z-index: 99;
     padding: 5px;
@@ -240,7 +241,7 @@ justify-content: center;
     text-decoration: none;
     border: none;
     border-radius: 4px;
-    background-color: #ceccb1;
+    background-color: #f7f6f4c1;
     /* Change this to your preferred color */
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.20);
     position: relative;

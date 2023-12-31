@@ -129,16 +129,18 @@ justify-content: right;
 .text_for_tea_bottom p{
     padding: 10px;
     text-align: justify;
-    width: 200px;
+    max-width:400px;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 5px;
+    font-family: 'Andika', sans-serif;
+    font-size: 20px;
 
 }
 
 /* /test */
 .addteablock {
     background: rgb(240, 241, 233);
-    background: linear-gradient(180deg, rgba(240, 241, 233, 1) 39%, rgba(0, 212, 255, 0.4768032212885154) 100%);
+    background: linear-gradient(180deg, rgba(240, 241, 233, 1) 39%, rgba(235, 234, 204, 0.477) 100%);
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -167,8 +169,8 @@ gap: 20px;
 }
 
 .tea_over .tea {
-    background: rgb(0, 212, 255);
-    background: linear-gradient(180deg, rgba(0, 212, 255, 0.4768032212885154) 0%, rgba(240, 241, 233, 1) 56%);
+    background: rgb(239, 235, 209);
+    background: linear-gradient(180deg, rgba(168, 164, 148, 0.477) 0%, rgba(240, 241, 233, 1) 56%);
     box-shadow: 10px 5px 20px black;
     width: 300px;
     height: 500px;
