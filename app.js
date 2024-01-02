@@ -25,7 +25,7 @@ document.getElementById('btntea').addEventListener('click', function() {
   }
   console.log(a);
 });
-
+// hamb list btn
 document.getElementById('btn_hamb_coffee').addEventListener('click', function() {
 
     const coffeepage = document.getElementById('coffee1');
@@ -39,5 +39,16 @@ document.getElementById('btnb_coffee1').addEventListener('click', function() {
 document.getElementById('btn_hamb_tea').addEventListener('click', function() {
 
   const coffeepage = document.getElementById('tea_all');
+  coffeepage.scrollIntoView();
+});
+document.getElementById('btn_hamb_contact').addEventListener('click', function() {
+
+  const coffeepage = document.getElementById('contact_page');
+  coffeepage.scrollIntoView();
+});
+// footer button
+document.getElementById('footer_coffe').addEventListener('click', function() {
+
+  const coffeepage = document.getElementById('coffee1');
   coffeepage.scrollIntoView();
 });

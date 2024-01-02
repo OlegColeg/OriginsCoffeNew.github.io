@@ -28,7 +28,7 @@ padding: 10px;
     display: flex;
     border-radius: 10px;
     box-shadow: 0px 0px 60px 30px rgba(0, 0, 0, 0.4);
-
+width: 100%;
 }
 
 .infocontact {
@@ -65,6 +65,7 @@ padding: 10px;
     gap: 30px;
 }
 .message_contact{
+    min-width: 150px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -113,4 +114,23 @@ border: none;
     overflow: hidden;
     transition: box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 
+}
+
+@media only screen and (max-width: 1000px) {
+    .message_contact .textinput{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+    
+}
+@media only screen and (max-width: 830px) {
+.box_contact{
+    display: flex;
+    flex-direction: column;
+}
+.infocontact{
+    width: 100%;
+}
+    
 }
