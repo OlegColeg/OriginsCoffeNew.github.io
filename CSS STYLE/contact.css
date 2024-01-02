@@ -1,6 +1,7 @@
 .contact_page {
     display: flex;
     justify-content: center;
+    align-items: center;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -19,9 +20,6 @@
     font-weight: ;
 
 }
-.container4 .text_for_contact p{
-    
-}
 .box_contact {
 padding: 10px;
     /* background-color: rgb(201, 121, 24); */
@@ -32,7 +30,7 @@ width: 100%;
 }
 
 .box_contact .infocontact {
-width: 500px;
+max-width: 500px;
     height: 600px;
     padding-block: 40px;
     padding-inline: 40px;
@@ -63,11 +61,12 @@ width: 500px;
     display: flex;
     gap: 30px;
 }
-.box_contact .message_contact{
+.box_contact .message_contact{   
+     min-width: 250px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 100%;
+
     padding-block: 40px;
     padding-inline: 40px;
     padding-bottom: 200px;
@@ -114,7 +113,7 @@ border: none;
 
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1030px) {
     .message_contact .textinput{
         display: grid;
         grid-template-columns: 1fr;
@@ -122,14 +121,17 @@ border: none;
     }
     
 }
-@media only screen and (max-width: 830px) {
+@media only screen and (max-width: 930px) {
 .box_contact{
     display: flex;
     flex-direction: column;
 }
-.infocontact{
-    width: 100%;
-
+.box_contact .infocontact{
+    max-width: none;
 }
-    
+.message_contact .textmessage{
+    font-size: ;
+margin-top: 80px;
+}
+
 }
