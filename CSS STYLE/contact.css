@@ -31,9 +31,8 @@ padding: 10px;
 width: 100%;
 }
 
-.infocontact {
-    max-width: 500px;
-    width: 100%;
+.box_contact .infocontact {
+width: 500px;
     height: 600px;
     padding-block: 40px;
     padding-inline: 40px;
@@ -64,8 +63,7 @@ width: 100%;
     display: flex;
     gap: 30px;
 }
-.message_contact{
-    min-width: 150px;
+.box_contact .message_contact{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -131,6 +129,7 @@ border: none;
 }
 .infocontact{
     width: 100%;
+
 }
     
 }
