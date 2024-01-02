@@ -7,12 +7,11 @@
 .container4 {
     max-width: 1100px;
     width: 100%;
-    padding-block: 20px;
-    background-color: bisque;
     margin-inline: 100px;
 }
 .container4 .text_for_contact{
     text-align: center;
+    margin-block: 40px;
 }
 .container4 .text_for_contact h1{
     font-family: 'Poppins', sans-serif;
@@ -24,11 +23,11 @@
     
 }
 .box_contact {
-
-    background-color: rgb(201, 121, 24);
+padding: 10px;
+    /* background-color: rgb(201, 121, 24); */
     display: flex;
     border-radius: 10px;
-    box-shadow: 0px 0px 60px 30px rgba(0, 0, 0, 0.03);
+    box-shadow: 0px 0px 60px 30px rgba(0, 0, 0, 0.4);
 
 }
 
@@ -64,4 +63,54 @@
 .infocontact .infotext .lineinfo {
     display: flex;
     gap: 30px;
+}
+.message_contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding-block: 40px;
+    padding-inline: 40px;
+    padding-bottom: 200px;
+}
+.message_contact .textinput{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+
+}
+.message_contact .textinput .inputinfo{
+    border-bottom: 2px solid black;
+}
+.message_contact .textinput input{
+width: 100%;
+border: none;
+}
+.message_contact .textmessage .message_for_send{
+    border-bottom: 2px solid black;
+}
+.message_contact .textmessage input{
+    width: 100%;
+    border: none;
+}
+.sendmessage{
+    display: flex;
+    justify-content: end;
+}
+.sendmessage button{
+    margin-top: 15px;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    background-color: #f7f6f4c1;
+    /* Change this to your preferred color */
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.20);
+    position: relative;
+    overflow: hidden;
+    transition: box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+
 }
