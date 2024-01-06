@@ -52,3 +52,45 @@ document.getElementById('footer_coffe').addEventListener('click', function() {
   const coffeepage = document.getElementById('coffee1');
   coffeepage.scrollIntoView();
 });
+document.getElementById('return_btn').addEventListener('click', function() {
+  document.getElementById('gallery_box').style.display = 'grid';
+  document.getElementById('gallery_btn_back').style.display = 'none';
+  document.getElementById('barista_gallery_box').style.display = 'none';
+  document.getElementById('ice_gallery_box').style.display = 'none';
+  document.getElementById('anturaj_gallery_box').style.display = 'none';
+  document.getElementById('clienti_gallery_box').style.display = 'none';
+  
+})
+
+document.getElementById('barista').addEventListener('click', function() {
+  document.getElementById('gallery_box').style.display = 'none';
+document.getElementById('barista_gallery_box').style.display = 'grid';
+document.getElementById('barista_gallery_box').style.paddingTop = '0px';
+document.getElementById('gallery_btn_back').style.display = 'flex';
+
+});
+
+document.getElementById('ice_drinks').addEventListener('click', function() {
+  document.getElementById('gallery_box').style.display = 'none';
+  document.getElementById('ice_gallery_box').style.display = 'grid';
+  document.getElementById('ice_gallery_box').style.paddingTop = '0px';
+  document.getElementById('gallery_btn_back').style.display = 'flex';
+
+  
+})
+document.getElementById('anturaj').addEventListener('click', function() {
+  document.getElementById('gallery_box').style.display = 'none';
+  document.getElementById('anturaj_gallery_box').style.display = 'grid';
+  document.getElementById('anturaj_gallery_box').style.paddingTop = '0px';
+  document.getElementById('gallery_btn_back').style.display = 'flex';
+
+  
+})
+document.getElementById('relatii').addEventListener('click', function() {
+  document.getElementById('gallery_box').style.display = 'none';
+  document.getElementById('clienti_gallery_box').style.display = 'grid';
+  document.getElementById('clienti_gallery_box').style.paddingTop = '0px';
+  document.getElementById('gallery_btn_back').style.display = 'flex';
+
+  
+})
