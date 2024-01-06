@@ -91,6 +91,34 @@ document.getElementById('footer_coffe').addEventListener('click', function() {
   const coffeepage = document.getElementById('coffee1');
   coffeepage.scrollIntoView();
 });
+document.getElementById('footer_tea').addEventListener('click', function() {
+
+  const coffeepage = document.getElementById('tea_all');
+  coffeepage.scrollIntoView();
+});
+document.getElementById('footer_accessorii').addEventListener('click', function() {
+
+  document.getElementById('gallery_box').style.display = 'none';
+  document.getElementById('accesorii_gallery_box').style.display = 'grid';
+  document.getElementById('accesorii_gallery_box').style.paddingTop = '0px';
+  document.getElementById('gallery_btn_back').style.display = 'flex';
+  const coffeepage = document.getElementById('gallery');
+  coffeepage.scrollIntoView();
+});
+document.getElementById('footer_gallery').addEventListener('click', function() {
+
+  document.getElementById('gallery_box').style.display = 'grid';
+  document.getElementById('gallery_btn_back').style.display = 'none';
+  document.getElementById('barista_gallery_box').style.display = 'none';
+  document.getElementById('ice_gallery_box').style.display = 'none';
+  document.getElementById('anturaj_gallery_box').style.display = 'none';
+  document.getElementById('clienti_gallery_box').style.display = 'none';
+  document.getElementById('accesorii_gallery_box').style.display = 'none';
+  document.getElementById('hot_gallery_box').style.display = 'none';
+  const coffeepage = document.getElementById('gallery');
+  coffeepage.scrollIntoView();
+});
+// GALLERY PAGE
 document.getElementById('return_btn').addEventListener('click', function() {
   document.getElementById('gallery_box').style.display = 'grid';
   document.getElementById('gallery_btn_back').style.display = 'none';
@@ -149,5 +177,9 @@ document.getElementById('hot_drinks').addEventListener('click', function() {
   document.getElementById('hot_gallery_box').style.paddingTop = '0px';
   document.getElementById('gallery_btn_back').style.display = 'flex';
 
+  
+})
+document.getElementById('send').addEventListener('click', function() {
+  document.getElementById('inputvalue').value = "";
   
 })
