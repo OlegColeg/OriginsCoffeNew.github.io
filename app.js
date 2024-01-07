@@ -64,7 +64,14 @@ document.getElementById('btn_hamb_accesorii').addEventListener('click', function
 });
 // nav bar buttom btn
 document.getElementById('btnb_accesorii').addEventListener('click', function() {
-
+  document.getElementById('gallery_box').style.display = 'grid';
+  document.getElementById('gallery_btn_back').style.display = 'none';
+  document.getElementById('barista_gallery_box').style.display = 'none';
+  document.getElementById('ice_gallery_box').style.display = 'none';
+  document.getElementById('anturaj_gallery_box').style.display = 'none';
+  document.getElementById('clienti_gallery_box').style.display = 'none';
+  document.getElementById('accesorii_gallery_box').style.display = 'none';
+  document.getElementById('hot_gallery_box').style.display = 'none';
   document.getElementById('gallery_box').style.display = 'none';
   document.getElementById('accesorii_gallery_box').style.display = 'grid';
   document.getElementById('accesorii_gallery_box').style.paddingTop = '0px';
