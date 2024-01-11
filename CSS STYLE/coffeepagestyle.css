@@ -69,7 +69,8 @@ padding-block: 50px;
 
 
 
-.container2 .box2__coffee {
+.container2 .box2__coffee { 
+    
     padding: 10px;
     background-color: antiquewhite;
     border-top-left-radius: 50px;

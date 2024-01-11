@@ -20,9 +20,10 @@ font-family: 'Andika', sans-serif;
 font-size: 30px;
 }
 .gallery_btn_back{
+
     height: 50px;
     padding-inline: 20px;
-    width: 100%;
+    max-width: 100%;
     display: flex;
     align-items: center;
     transition: 0.5s;
